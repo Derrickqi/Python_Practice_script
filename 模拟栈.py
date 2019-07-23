@@ -4,7 +4,7 @@ def append():
     add = input('Input add paramenter:')
     stack.append(add)
 def pop():
-    pop = int(input('Input pop paramenter :'))
+    pop = int(input('Input pop paramenter position:'))
     stack.pop(pop)
 def view():
     print(stack)
