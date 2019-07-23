@@ -4,8 +4,8 @@ def append():
     add = input('Input add paramenter:')
     stack.append(add)
 def pop():
-    if stack:
-        print("from stack popped %s" % stack.pop())
+    pop = int(input('Input pop paramenter :'))
+    stack.pop(pop)
 def view():
     print(stack)
 
